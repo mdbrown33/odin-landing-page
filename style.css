@@ -1,1 +1,80 @@
-/* Will be used for landing page CSS file */
+* {
+    font-family: 'Roboto';
+   /* background-color: #1F2937 */
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.headerlist {
+    color: #E5E7EB;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.herosection {
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+    background-color: #1F2937;
+    gap: 10px;
+}
+
+.herotext {
+    flex: 1;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+#herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heroimage {
+    background-color: rgb(114, 114, 114);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagetxt {
+    background-color: rgb(114, 114, 114);
+}
+
+#imagetext {
+    color: white;
+    background-color: rgb(114, 114, 114);
+}
+
+.button1 {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: 0;
+}

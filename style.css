@@ -137,3 +137,32 @@ h2 {
     font-size: 28px;
     text-align: right;
 }
+
+/* Call to Action Section */
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 5px;
+    padding: 35px; 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-big {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button2 {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: 2px solid white;
+}
